@@ -24,6 +24,7 @@ public class Application extends Activity {
 	/** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
+    	//Test Moize
         super.onCreate(savedInstanceState);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         setContentView(R.layout.main);

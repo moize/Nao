@@ -11,11 +11,9 @@ public class AccelerometerController implements SensorEventListener {
 	public AccelerometerController(Accelerometer parent){
 		this.parent=parent;
 	}
-	@Override
 	public void onAccuracyChanged(Sensor sensor, int accuracy) {
 	}
 
-	@Override
 	public void onSensorChanged(SensorEvent event) {
 		switch(event.sensor.getType()){
 		case Sensor.TYPE_ACCELEROMETER:
